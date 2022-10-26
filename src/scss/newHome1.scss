@@ -1,0 +1,128 @@
+@import "_variables.scss";
+@import "_mixins.scss";
+
+.new-home{
+  background-color: #d2eefc;
+  .page-wrapper{
+    padding: 20px;
+  }
+  .page-top{
+    background-color: #2f5993;
+    height: 40px;
+  }
+  .page-content{
+    padding: 20px;
+    background-color: #6a8fbc;
+  }
+  .row{
+    margin: 0 !important;
+  }
+  .right-side{
+    height: 1000px;
+    background-image: url(../assets/rightImage.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    
+  }
+
+  .transformer{
+    position: relative;
+    top: 10.9%;
+    flex-wrap: nowrap;
+    .transformer1, .transformer2{
+      margin-left: 2%;
+    } 
+    .secondary{
+      padding-top: 12%;
+    }
+    input{
+      width: 13.5%;
+      margin-right: 2%;
+      // background-color: transparent;
+      // border: none;
+      // &:focus{
+      //   outline: none;
+      // }
+    }
+  }
+  input{
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 0.8rem;
+    &:focus{
+      outline: none;
+    }
+  }
+
+  .low-trolley{
+    position: relative;
+    top: 27%;
+    width: 8%;
+  }
+
+  .up-trolley{
+    position: relative;
+    top: 27%;
+    left: 74%;
+    width: 8%;
+  }
+
+  .fix-Gantry{
+    position: relative;
+    top: 39%;
+    right: 15%;
+    width: 8%;
+  }
+
+  .hing-Gantry{
+    position: relative;
+    top: 51%;
+    left: 58%;
+    width: 8%;
+  }
+
+  .hing-Gantry-bottom{
+    position: relative;
+    top: 51%;
+    left: 0%;
+    width: 8%;
+  }
+
+  .hing-Gantry-top{
+    position: relative;
+    top: 70%;
+    right: 7%;
+    width: 8%;
+  }
+  svg{
+    background-color: #6a8fbc;
+    margin: 20px;
+  }
+  rect{
+    color: #1ea1ff;
+  }
+  tspan{
+    display: none;
+  }
+
+  .duration{
+    position: relative;
+    margin: auto;
+    width: 80%;
+    height: 300px;
+    border: 2px solid white;
+
+    .circle{
+      position: absolute;
+      bottom: 5%;
+      right: 30%;
+      width: 50px;
+      height: 50px;
+      background-color: #49bdfc;
+      border-radius: 50%;
+    }
+  }
+  
+}
